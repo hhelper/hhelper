@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나용균의 홈페이지 연습중_광고포함</title>
+    <style> /* CSS 스타일을 여기에 추가하세요 */
+        <style>
+            /* 기존 스타일 */ /* 수정된 스타일 */
+            body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+            header { background-color: lightgreen;  padding: 20px;  color: white;  }
+            h1 { margin: 0;  }
+            nav ul {  list-style-type: none;   padding: 0; margin: 0;   }
+            nav ul li {  display: inline;  margin-right: 10px; }
+            nav ul li a {  text-decoration: none;  color: white;   }
+            section {  padding: 50px 0;  }
+            /* 나머지 스타일은 필요에 따라 추가하거나 수정하세요 */
+        </style>
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5069464055456592"
+     crossorigin="anonymous"></script>
+    <script>
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            // 이 부분에서 서버로 데이터를 전송하고, 답변을 받아서 보여줄 수 있습니다.
+            
+            // 답변을 받아서 보여주는 예시
+            var response = "안녕하세요, " + name + "님! 문의해 주셔서 감사합니다. 가능한 빠른 시일 내에 답변드리겠습니다.";
+            document.getElementById('response').textContent = response;
+        }
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // 데이터를 로컬 스토리지에 저장
+            localStorage.setItem('name', name);
+            localStorage.setItem('email', email);
+            localStorage.setItem('message', message);
+            
+            alert('데이터가 저장되었습니다.');// 성공 메시지 표시
+         }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>나용균 = 라용균 = RA YOUNG KYUN</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#skills">보유 기술</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>소개</h2>
+        <p>안녕하세요, 나용균입니다. 컴퓨터 전기 기계 환경 엔지니어로 사회 업력이 있어,  </p> 
+        <p>다양한 경험을 할수 있었으며 기본적인 지식은 부족하고 적어 공부를 계속 수행하고 있습니다.</p>
+        <p>홈페이지를 통해 서로 도움이 되는 소통이 이루어 지면 좋겠습니다.</p>
+        <p>이 곳을 통해 나용균이 어떻게 바뀌어 가는지 관심 갖어 주시길 부탁드립니다.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>보유 기술</h2>
+        <ul>
+            <li>전기공사, 자동제어</li>
+            <p>설계, 제작, 설치, 유지관리 실무 경험을 바탕으로 진행 가능 합니다. .</p>
+            <p>관련경험은 항온항습실, 보일러제어, 동식식물 환경실, 오폐수처리시설, 냉동 냉장 저장고, GMP시설, GMO시설, RO시설, 식물공장 크린룸,환경장비  .</p>
+            <p>관련경험업체는 자동차관련 제조업체, 영와극장, 군부대, 유치원, 물류센터, 쿠팡, 농업기술센터, 농업기술원, 산림과학연구원 유전자원센터, 서해수산연구소, 성모병원, 원자력연구워, 생명공학연구원, 삼성전자, 아이티엠반도체, 한의학연구원, 대학교 </p>
+            <p>전기, PLC, HMI, BMS, 공조, 냉동, 기계, 통신, 소방, 수도, 모니터링시스템  </p>
+
+            <li>공조냉동기계, 기계정비</li>
+
+            <li>버섯종균, 배양실</li>
+
+            <li>PC수리, Python, 파이썬</li>
+
+            <li>BLDC제어</li>
+            <!-- 필요한 기술을 추가하세요 -->
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>주요프로젝트</h2>
+        <ul>
+            <li>
+                <h3>0. 중국 </h3>
+                <p> 연변과기대 및 연변유치원 교육시설 탐방 </p>
+            </li>
+            <li>
+                <h3>1. GSP(골든시드프로젝트)</h3>
+                <p>농진청 연구에 참여</p>
+            </li>
+            <li>
+                <h3>2. 알제리</h3>
+                <p>코이카진행 씨감자배양실 및 농업연구소, 사하라새우양식장 및 수산연구소</p>
+            </li>
+            <li>
+                <h3>3. 몽골 </h3>
+                <p> 냉동냉장시설 및 칠러 모니터링시스템 </p>
+            </li>
+            <li>
+                <h3>4. 전장개발</h3>
+                <p>캔슬러개발 완료 시판, 쇼바 감쇄력 자동조절장치 실패경험</p>
+            </li>
+            <!-- 필요한 프로젝트를 추가하세요 -->
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>연락처 82 010 2757 7931</h2>
+        <p>저와 연락하려면 아래의 양식을 작성해주세요:</p>
+        
+        <form id="contactForm" onsubmit="event.preventDefault(); submitForm();">
+            <label for="name">이름:</label>
+            <input type="text" id="name" required><br>
+            
+            <label for="email">이메일:</label>
+            <input type="email" id="email" required><br>
+            
+            <label for="message">메시지:</label>
+            <textarea id="message" required></textarea><br>
+            
+            <button type="submit">보내기</button>
+        </form>
+        
+        <div id="response"></div>
+    </section>
+</body>
+</html>
